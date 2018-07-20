@@ -1,4 +1,41 @@
 body{
     font-family: 'Proxima Nova', 'Roboto', sans-serif;
+    line-height: 24px;
 
+}
+/* BOX SIZING */
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+/* COLOURS */
+/* 
+
+
+
+*/
+
+/* HEADINGS */
+h1, h2, h3, h4, h5, p{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 36px;
+}
+
+
+
+/* CONTAINER */
+.container{
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1323px;
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
 }

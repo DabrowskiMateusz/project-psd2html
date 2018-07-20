@@ -1,0 +1,78 @@
+.page-header{
+    background: url('/img/layer-10.png') no-repeat;
+    padding-top: 52px;
+    padding-bottom: 160px;
+}
+.page-header > .container{
+    justify-content: space-between;
+}
+.menu-brand{
+    justify-content: flex-start;
+    
+}
+
+.menu-links{
+    justify-content: flex-end;
+    padding-top: 17px;
+    padding-bottom: 2px;
+}
+.header-info{
+
+}
+.menu-brand a{
+    display: block;
+    font-size: 36px;
+    font-weight: 300;
+    font-family: 'proxima Nova - light';
+}
+.highlight{
+    font-weight: 700;
+    font-family: 'proxima Nova - Bold';
+}
+
+.menu-links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu-links li{
+    display: inline-block;
+    margin-right: 33px;
+}
+.menu-links .active {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 18px;
+    padding: 5px 10px;
+}
+
+.menu-links a{
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* HEADER INFO */
+.header-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 220px;
+}
+.header-info > p:first-of-type{
+    color: #949494;
+    font-size: 18px;
+    font-weight: 400;
+    padding-top: 10px;
+}
+.header-info .btn{
+    margin-top: 62px;
+}
+.mouse-img{
+    padding-top: 416px;
+    padding-bottom: 13px;
+}
+.header-info p{
+    font-size: 14px;
+    line-height: 18px;
+    color: #ffffff;
+}

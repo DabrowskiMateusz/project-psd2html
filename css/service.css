@@ -1,0 +1,42 @@
+.service{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.service h2{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 36px;
+    text-align: center;
+   
+}
+.service-wrapper{
+    margin-top: 113px;
+    display: flex;
+    flex-wrap: wrap;  
+}
+.single-service{
+    flex-basis: 50%;
+    display: flex; 
+}
+.single-service h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+}
+.single-service p{
+    color: #949494;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+.service-cta{
+    display: flex;
+    justify-content: center;
+    margin-top: 109px;
+}
+.single-service a {
+    display: block;
+    margin-right: 46px;
+  
+}
